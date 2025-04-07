@@ -8,14 +8,14 @@
   
   1.4 install environment with conda env create -f environment.yml
   
-  1.5 train model with command python train.py --learning_rate 1e-4 --activate_func sigmoid --hidden_dim 2304 --l2_lambda 1e-6 --batch_size 10, model now only support activate_func [sigmoid, relu], you can also train with other hyperparameters.
+  1.5 train model with command 'python train.py --learning_rate 1e-4 --activate_func sigmoid --hidden_dim 2304 --l2_lambda 1e-6 --batch_size 10', model now only support activate_func [sigmoid, relu], you can also train with other hyperparameters.
   
   1.6 after training, loss curve will be writen to Training_validation_loss.jpg, validation accuracy will be writen to Training_validation_accuracy.jpg.
 
 ### 2. How to test model 
 
-  2.1 test model with command python test.py --model path_to_model.pkl
+  2.1 test model with command 'python test.py --model path_to_model.pkl'
 
 ### 3. How to visualize model weights
 
-   3.1 visualize with command python visual_model.py --model path_to_model.pkl
+   3.1 visualize with command 'python visual_model.py --model path_to_model.pkl'
