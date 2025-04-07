@@ -1,4 +1,4 @@
-1. How to train
+### 1. How to train
 
   1.1 clone this repository to local
   
@@ -12,10 +12,10 @@
   
   1.6 after training, loss curve will be writen to Training_validation_loss.jpg, validation accuracy will be writen to Training_validation_accuracy.jpg.
 
-2. How to test model 
+### 2. How to test model 
 
   2.1 test model with command python test.py --model path_to_model.pkl
 
-3. How to visualize model weights
+### 3. How to visualize model weights
 
    3.1 visualize with command python visual_model.py --model path_to_model.pkl
